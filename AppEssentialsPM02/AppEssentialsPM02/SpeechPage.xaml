@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEssentialsPM02.SpeechPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tono" />
+            <Slider x:Name="sldTono" 
+                    Minimum="0" 
+                    Maximum="10" 
+                    Value="2"/>
+            
+            <Label Text="Velocidad" />
+            <Slider x:Name="sldSpeed" 
+                    Minimum="0" 
+                    Maximum="10" 
+                    Value="2"/>
+            <Label Text="Volumen" />
+            <Slider x:Name="sldVolumen" 
+                    Minimum="0" 
+                    Maximum="10" 
+                    Value="2"/>
+            
+            <Editor x:Name="txtNota" 
+                    Text="This editor is used for collecting text that is expected hello world "/>
+            
+            <Button x:Name="btnSpeed" 
+                    Text="Texto a voz implementacion 1" 
+                    Clicked="BtnSpeed_Clicked"/>
+
+            <Button x:Name="btnSpeech1" 
+                    Text="Texto a voz implementacion 2" 
+                    Clicked="BtnSpeech1_Clicked"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

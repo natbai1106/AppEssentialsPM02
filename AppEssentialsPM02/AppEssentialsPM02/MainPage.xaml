@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEssentialsPM02.MainPage">
+
+    <StackLayout>
+      
+        <Button Text="Texto a Voz" x:Name="btnTexto" Clicked="btnTexto_Clicked" />
+
+        <Button Text="Mapas" x:Name="btnMapas" Clicked="btnMapas_Clicked"/>
+        
+        <Button Text="Fotos" x:Name="btnTomarFoto" Clicked="btnTomarFoto_Clicked"/>
+        
+    </StackLayout>
+
+</ContentPage>
